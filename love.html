@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCBOI5bHFP0dF66Gziabr0VvG80abgRG0XBg&s); /* Flowery background */
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+        h1 {
+            font-size: 4rem;
+            color: #ff6f61;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: fadeInUp 1.5s forwards;
+            animation-delay: 0.5s;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+        p {
+            font-size: 1.5rem;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1.5s forwards;
+            animation-delay: 2s;
+            margin-top: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        .proposal-note {
+            font-size: 1.2rem;
+            margin-top: 30px;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInUp 1.5s forwards;
+            animation-delay: 3.5s;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>I Love You</h1>
+        <p>You mean the world to me! 💖</p>
+        <div class="proposal-note">
+            <p>From the moment we met, my life has changed for the better.</p>
+            <p>I can't imagine a future without you. will you be my life partner?</p>
+        </div>
+    </div>
+
+    <script>
+        // Optional: You can add more animations or effects using JavaScript if desired
+    </script>
+</body>
+</html>
+
+
+
